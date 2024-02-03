@@ -23,7 +23,6 @@ class M_barang extends Model
 	{
 		return $this->db->table($table)->update($data, $where);
 	}
-	
 
 
 	

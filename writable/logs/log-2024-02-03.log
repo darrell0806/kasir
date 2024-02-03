@@ -1,0 +1,221 @@
+CRITICAL - 2024-02-03 00:04:07 --> Class 'App\Controllers\M_mmodel' not found
+#0 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->tambah()
+#1 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#5 {main}
+CRITICAL - 2024-02-03 00:04:51 --> Invalid argument supplied for foreach()
+#0 D:\kasir\app\Views\penjualan\form.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\kasir\\app\\Vi...', 9, Array)
+#1 D:\kasir\system\View\View.php(210): include('D:\\kasir\\app\\Vi...')
+#2 D:\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\kasir\system\Common.php(1089): CodeIgniter\View\View->render('penjualan/form', Array, true)
+#4 D:\kasir\app\Controllers\Penjualan.php(63): view('penjualan/form', Array)
+#5 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->add('1')
+#6 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#10 {main}
+CRITICAL - 2024-02-03 00:07:36 --> Invalid argument supplied for foreach()
+#0 D:\kasir\app\Views\penjualan\form.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\kasir\\app\\Vi...', 45, Array)
+#1 D:\kasir\system\View\View.php(210): include('D:\\kasir\\app\\Vi...')
+#2 D:\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\kasir\system\Common.php(1089): CodeIgniter\View\View->render('penjualan/form', Array, true)
+#4 D:\kasir\app\Controllers\Penjualan.php(63): view('penjualan/form', Array)
+#5 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->add('1')
+#6 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#10 {main}
+ERROR - 2024-02-03 00:16:23 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2024-02-03 00:16:23 --> Unknown column 'jumlah' in 'field list'
+CRITICAL - 2024-02-03 00:16:23 --> Too few arguments to function App\Controllers\Penjualan::add(), 0 passed in D:\kasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->add()
+#1 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#5 {main}
+ERROR - 2024-02-03 00:17:18 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2024-02-03 00:17:18 --> Unknown column 'jumlah' in 'field list'
+CRITICAL - 2024-02-03 00:17:18 --> Too few arguments to function App\Controllers\Penjualan::add(), 0 passed in D:\kasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->add()
+#1 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#5 {main}
+ERROR - 2024-02-03 00:18:20 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2024-02-03 00:18:20 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2024-02-03 00:20:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2024-02-03 00:20:28 --> Unknown column 'jumlah' in 'field list'
+CRITICAL - 2024-02-03 00:26:12 --> Call to a member function update() on null
+#0 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->save()
+#1 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#5 {main}
+CRITICAL - 2024-02-03 01:20:21 --> Cannot redeclare App\Controllers\Penjualan::search_barang()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-02-03 08:48:24 --> Unknown column 'penjualan.id_barang' in 'on clause'
+CRITICAL - 2024-02-03 08:48:24 --> Call to a member function getFirstRow() on bool
+#0 D:\kasir\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 D:\kasir\app\Models\PenjualanModel.php(16): CodeIgniter\BaseModel->first()
+#2 D:\kasir\app\Controllers\Penjualan.php(118): App\Models\PenjualanModel->getPenjualanById('4')
+#3 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->detail('4')
+#4 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#5 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#8 {main}
+ERROR - 2024-02-03 08:48:45 --> Unknown column 'penjualan.id_barang' in 'on clause'
+CRITICAL - 2024-02-03 08:48:45 --> Call to a member function getFirstRow() on bool
+#0 D:\kasir\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 D:\kasir\app\Models\PenjualanModel.php(16): CodeIgniter\BaseModel->first()
+#2 D:\kasir\app\Controllers\Penjualan.php(118): App\Models\PenjualanModel->getPenjualanById('4')
+#3 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->detail('4')
+#4 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#5 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#8 {main}
+ERROR - 2024-02-03 08:49:50 --> Unknown column 'penjualan.id_barang' in 'on clause'
+CRITICAL - 2024-02-03 08:49:50 --> Call to a member function getFirstRow() on bool
+#0 D:\kasir\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 D:\kasir\app\Models\DetailPenjualanModel.php(18): CodeIgniter\BaseModel->first()
+#2 D:\kasir\app\Controllers\Penjualan.php(118): App\Models\DetailPenjualanModel->getPenjualanById('4')
+#3 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->detail('4')
+#4 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#5 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#8 {main}
+CRITICAL - 2024-02-03 09:41:57 --> There is no data to update.
+#0 D:\kasir\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\kasir\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\kasir\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\kasir\app\Models\DetailPenjualanModel.php(44): CodeIgniter\Model->update(Array)
+#4 D:\kasir\app\Controllers\Penjualan.php(149): App\Models\DetailPenjualanModel->updateTotalPenjualan('1', 0)
+#5 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->delete_d('2')
+#6 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#10 {main}
+CRITICAL - 2024-02-03 10:26:13 --> Call to undefined method App\Models\DetailPenjualanModel::getDetailPenjualan
+#0 D:\kasir\app\Controllers\Penjualan.php(146): CodeIgniter\Model->__call('getDetailPenjua...', Array)
+#1 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->printNota('1')
+#2 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#3 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#6 {main}
+CRITICAL - 2024-02-03 10:27:29 --> Class 'Dompdf\Dompdf' not found
+#0 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->printNota('1')
+#1 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#5 {main}
+CRITICAL - 2024-02-03 10:48:11 --> Class 'Dompdf\Dompdf' not found
+#0 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->printNota('1')
+#1 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#5 {main}
+CRITICAL - 2024-02-03 10:48:42 --> Class 'Dompdf\Dompdf' not found
+#0 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->printNota('1')
+#1 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#5 {main}
+CRITICAL - 2024-02-03 10:53:03 --> A non-numeric value encountered
+#0 D:\kasir\app\Views\nota.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\kasir\\app\\Vi...', 51, Array)
+#1 D:\kasir\system\View\View.php(210): include('D:\\kasir\\app\\Vi...')
+#2 D:\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\kasir\system\Common.php(1089): CodeIgniter\View\View->render('nota', Array, true)
+#4 D:\kasir\app\Controllers\Penjualan.php(152): view('nota', Array)
+#5 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->printNota('1')
+#6 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#10 {main}
+CRITICAL - 2024-02-03 10:54:38 --> A non-numeric value encountered
+#0 D:\kasir\app\Views\nota.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\kasir\\app\\Vi...', 53, Array)
+#1 D:\kasir\system\View\View.php(210): include('D:\\kasir\\app\\Vi...')
+#2 D:\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\kasir\system\Common.php(1089): CodeIgniter\View\View->render('nota', Array, true)
+#4 D:\kasir\app\Controllers\Penjualan.php(152): view('nota', Array)
+#5 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->printNota('1')
+#6 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#10 {main}
+CRITICAL - 2024-02-03 10:55:21 --> A non-numeric value encountered
+#0 D:\kasir\app\Views\nota.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\kasir\\app\\Vi...', 51, Array)
+#1 D:\kasir\system\View\View.php(210): include('D:\\kasir\\app\\Vi...')
+#2 D:\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\kasir\system\Common.php(1089): CodeIgniter\View\View->render('nota', Array, true)
+#4 D:\kasir\app\Controllers\Penjualan.php(152): view('nota', Array)
+#5 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->printNota('1')
+#6 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#10 {main}
+CRITICAL - 2024-02-03 10:55:41 --> A non-numeric value encountered
+#0 D:\kasir\app\Views\nota.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\kasir\\app\\Vi...', 51, Array)
+#1 D:\kasir\system\View\View.php(210): include('D:\\kasir\\app\\Vi...')
+#2 D:\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\kasir\system\Common.php(1089): CodeIgniter\View\View->render('nota', Array, true)
+#4 D:\kasir\app\Controllers\Penjualan.php(152): view('nota', Array)
+#5 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->printNota('1')
+#6 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#10 {main}
+CRITICAL - 2024-02-03 10:57:11 --> Illegal string offset 'nama_brg'
+#0 D:\kasir\app\Views\nota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\kasir\\app\\Vi...', 56, Array)
+#1 D:\kasir\system\View\View.php(210): include('D:\\kasir\\app\\Vi...')
+#2 D:\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\kasir\system\Common.php(1089): CodeIgniter\View\View->render('nota', Array, true)
+#4 D:\kasir\app\Controllers\Penjualan.php(152): view('nota', Array)
+#5 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->printNota('1')
+#6 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#10 {main}
+CRITICAL - 2024-02-03 10:59:14 --> Illegal string offset 'nama_brg'
+#0 D:\kasir\app\Views\nota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\kasir\\app\\Vi...', 56, Array)
+#1 D:\kasir\system\View\View.php(210): include('D:\\kasir\\app\\Vi...')
+#2 D:\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\kasir\system\Common.php(1089): CodeIgniter\View\View->render('nota', Array, true)
+#4 D:\kasir\app\Controllers\Penjualan.php(152): view('nota', Array)
+#5 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->printNota('1')
+#6 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#10 {main}
+CRITICAL - 2024-02-03 11:00:22 --> Illegal string offset 'nama_brg'
+#0 D:\kasir\app\Views\nota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\kasir\\app\\Vi...', 56, Array)
+#1 D:\kasir\system\View\View.php(210): include('D:\\kasir\\app\\Vi...')
+#2 D:\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\kasir\system\Common.php(1089): CodeIgniter\View\View->render('nota', Array, true)
+#4 D:\kasir\app\Controllers\Penjualan.php(152): view('nota', Array)
+#5 D:\kasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->printNota('1')
+#6 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#10 {main}

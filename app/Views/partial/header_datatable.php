@@ -37,7 +37,10 @@
     />
     <link rel="stylesheet" href="<?=base_url('assets/extensions/toastify-js/src/toastify.css')?>"
     />
-
+    <link
+      rel="stylesheet"
+      href="<?=base_url('assets/extensions/choices.js/public/assets/styles/choices.css')?>"
+    />
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 

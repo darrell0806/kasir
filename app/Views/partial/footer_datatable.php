@@ -43,7 +43,8 @@
 
     <script src="<?php echo base_url('assets/extensions/flatpickr/flatpickr.min.js')?>"></script>
     <script src="<?php echo base_url('assets/static/js/pages/date-picker.js')?>"></script>
-
+    <script src="<?php echo base_url('assets/extensions/choices.js/public/assets/scripts/choices.js')?>"></script>
+    <script src="<?php echo base_url('assets/static/js/pages/form-element-select.js')?>"></script>
     <!-- Log Out Otomatis -->
     <script>
       // Fungsi untuk mengatur timer otomatis logout

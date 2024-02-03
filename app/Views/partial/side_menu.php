@@ -109,12 +109,7 @@ $logo = $builder->select('logo_website')
               
                 <li class="sidebar-title">Laporan</li>
 
-                <li class="sidebar-item <?php if($uri->getSegment(1) == "laporan_user"){echo "active";}?>">
-                  <a href="<?=base_url('laporan_user')?>" class='sidebar-link'>
-                    <i class="fa-solid fa-bank"></i>
-                    <span>Laporan Keuangan</span>
-                  </a>
-                </li>
+              
                 <li class="sidebar-item <?php if($uri->getSegment(1) == "laporan_book"){echo "active";}?>">
                   <a href="<?=base_url('laporan_book')?>" class='sidebar-link'>
                     <i class="fa-regular fa-book"></i>
