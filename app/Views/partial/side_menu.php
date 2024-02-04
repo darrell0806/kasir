@@ -110,25 +110,30 @@ $logo = $builder->select('logo_website')
                 <li class="sidebar-title">Laporan</li>
 
               
-                <li class="sidebar-item <?php if($uri->getSegment(1) == "laporan_book"){echo "active";}?>">
-                  <a href="<?=base_url('laporan_book')?>" class='sidebar-link'>
+                <li class="sidebar-item <?php if($uri->getSegment(1) == "laporan_barang"){echo "active";}?>">
+                  <a href="<?=base_url('laporan_barang')?>" class='sidebar-link'>
                     <i class="fa-regular fa-book"></i>
                     <span>Laporan Barang</span>
                   </a>
                 </li>
-                <li class="sidebar-item <?php if($uri->getSegment(1) == "laporan_peminjaman"){echo "active";}?>">
-                  <a href="<?=base_url('laporan_peminjaman')?>" class='sidebar-link'>
+                <li class="sidebar-item <?php if($uri->getSegment(1) == "laporan_masuk"){echo "active";}?>">
+                  <a href="<?=base_url('laporan_masuk')?>" class='sidebar-link'>
                     <i class="fa-regular fa-book"></i>
                     <span>Laporan Barang Masuk</span>
                   </a>
                 </li>
-                <li class="sidebar-item <?php if($uri->getSegment(1) == "laporan_pengembalian"){echo "active";}?>">
-                  <a href="<?=base_url('laporan_pengembalian')?>" class='sidebar-link'>
+                <li class="sidebar-item <?php if($uri->getSegment(1) == "laporan_keluar"){echo "active";}?>">
+                  <a href="<?=base_url('laporan_keluar')?>" class='sidebar-link'>
                     <i class="fa-regular fa-book"></i>
                     <span>Laporan Barang Keluar</span>
                   </a>
                 </li>
-               
+                <li class="sidebar-item <?php if($uri->getSegment(1) == "laporan_penjualan"){echo "active";}?>">
+                  <a href="<?=base_url('laporan_penjualan')?>" class='sidebar-link'>
+                    <i class="fa-regular fa-book"></i>
+                    <span>Laporan Penjualan</span>
+                  </a>
+                </li>
 
                 </li>
               

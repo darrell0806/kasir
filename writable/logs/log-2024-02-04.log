@@ -1,0 +1,21 @@
+CRITICAL - 2024-02-04 02:34:39 --> Invalid file: v_sip.php
+#0 D:\kasir\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_sip.php')
+#1 D:\kasir\system\Common.php(1089): CodeIgniter\View\View->render('v_sip', Array, true)
+#2 D:\kasir\app\Controllers\laporan_keluar.php(33): view('v_sip', Array)
+#3 D:\kasir\system\CodeIgniter.php(832): App\Controllers\laporan_keluar->print_windows()
+#4 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\laporan_keluar))
+#5 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#8 {main}
+ERROR - 2024-02-04 02:47:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM penjualan
+        INNER JOIN user ON penjualan.id_user = user.id_user
+...' at line 2
+CRITICAL - 2024-02-04 02:47:42 --> Call to a member function getResult() on bool
+#0 D:\kasir\app\Controllers\laporan_penjualan.php(32): App\Models\M_model->filterbk('penjualan', '2024-02-01 12:0...', '2024-02-29 12:0...')
+#1 D:\kasir\system\CodeIgniter.php(832): App\Controllers\laporan_penjualan->print_windows()
+#2 D:\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\laporan_penjualan))
+#3 D:\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\kasir\system\Commands\Server\rewrite.php(43): require_once('D:\\kasir\\public...')
+#6 {main}

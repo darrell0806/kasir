@@ -8,7 +8,7 @@ class barang_masuk extends BaseController
 {
     public function index()
     {
-       if(session()->get('level')== 1) {
+      
         $model=new M_masuk();
         $on='masuk.id_barang=barang.id_barang';
         $on1='masuk.id_user=user.id_user';
@@ -20,9 +20,7 @@ class barang_masuk extends BaseController
         echo view('partial/top_menu');
         echo view('masuk/view', $data);
         echo view('partial/footer_datatable');
-    }else {
-        return redirect()->to('login');
-    }
+    
 }
 
 public function create()
@@ -40,29 +38,25 @@ public function create()
 }
 public function aksi_create()
 {
-    if(session()->get('level')==1||  session()->get('level')==2){
+   
     $Model= new M_masuk();
     $data = $this->request->getPost();
    
     $Model->insertt($data);
     return redirect()->to('/barang_masuk');
-}else{
-    return redirect()->to('Login');
-}
+
 }
 
 
 public function delete($id)
 { 
     
-        if(session()->get('level')==1){
+       
             $model=new m_model();
             $where=array('id_masuk'=>$id);
             $model->hapus('masuk',$where);
             return redirect()->to('/barang_masuk');
-    }else{
-        return redirect()->to('Login');
-    }
+   
     
 }
 

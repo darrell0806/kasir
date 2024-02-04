@@ -281,7 +281,6 @@ class M_model extends Model
         return $this->db->query("
             SELECT *
             FROM ".$table."
-            INNER JOIN kategori ON ".$table.".kategori = kategori.id_kategori
             WHERE ".$table.".created_at BETWEEN '".$awal."' AND '".$akhir."'
             ")->getResult();
     }
@@ -421,21 +420,30 @@ public function getCommentsDataByIdUser($userId)
 public function filtersi($table, $awal, $akhir)
 {
     return $this->db->query("
-        SELECT koleksi.*, book.nama_b, user.nama as nama
+        SELECT masuk.*, barang.nama_brg, user.nama as nama
         FROM ".$table."
-        INNER JOIN book ON koleksi.book_id = book.id_book
-        INNER JOIN user ON koleksi.user_id = user.id_user
-        WHERE koleksi.created_at BETWEEN '".$awal."' AND '".$akhir."'
+        INNER JOIN barang ON masuk.id_barang = barang.id_barang
+        INNER JOIN user ON masuk.id_user = user.id_user
+        WHERE masuk.created_at BETWEEN '".$awal."' AND '".$akhir."'
+    ")->getResult();
+}
+public function filterbk($table, $awal, $akhir)
+{
+    return $this->db->query("
+        SELECT penjualan.*, user.nama as nama
+        FROM ".$table."
+        INNER JOIN user ON penjualan.id_user = user.id_user
+        WHERE penjualan.tanggal BETWEEN '".$awal."' AND '".$akhir."'
     ")->getResult();
 }
 public function filtersip($table, $awal, $akhir)
 {
     return $this->db->query("
-        SELECT comments.*, book.nama_b, user.nama as nama
-        FROM ".$table."
-        INNER JOIN book ON comments.book_id = book.id_book
-        INNER JOIN user ON comments.user_id = user.id_user
-        WHERE comments.created_at BETWEEN '".$awal."' AND '".$akhir."'
+    SELECT detail_penjualan.*, barang.nama_brg, penjualan.id_penjualan as id
+    FROM ".$table."
+    INNER JOIN barang ON detail_penjualan.id_barang = barang.id_barang
+    INNER JOIN penjualan ON detail_penjualan.id_penjualan = penjualan.id_penjualan
+    WHERE detail_penjualan.created_at BETWEEN '".$awal."' AND '".$akhir."'
     ")->getResult();
 }
     public function getDataByFilter2($blok, $tahun, $rombel)
